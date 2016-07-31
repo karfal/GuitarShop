@@ -1,0 +1,35 @@
+body { margin: 0; font-family: 'Indie Flower', cursive; }
+ul { margin: 0; padding: 0; }
+ul li { list-style: none; }
+a, a:hover { text-decoration: none; }
+footer { text-align: center; }
+.cl { clear: both; }
+
+#header_wrapper { text-align: center; background: url('../images/banner.jpg') no-repeat 50% 50%; background-size: cover; height: 600px; position: relative; }
+#header_wrapper h1 { font-family: 'Amatic SC', cursive; color: #7db7a5; font-weight: 700; font-size: 110px; margin: 0; position: absolute; left: 0; right: 0; top: 50%; -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+
+#catalog_landing, #gallery_landing { text-align: center; font-family: 'Indie Flower', cursive; font-size: 40px; margin: 50px 0 100px; padding: 1%; }
+#catalog_landing a, #gallery_landing a { color: #7db7a5; }
+
+#all_wrapper { width: 50%; margin: 40px auto 0; min-height: 500px; }
+#all_wrapper h2 { color: #7db7a5; font-size: 30px; font-weight: 600; }
+#all_wrapper #nav_wrapper { float: left; }
+#all_wrapper a { color: #666; font-size: 30px; }
+#all_wrapper #productlinks_wrapper { float: right; }
+
+#product_details { float: right; }
+#product_details #details_wrapper { font-size: 19px; margin-bottom: 5%; }
+#product_details #image_wrapper { text-align: center; margin: 30px 0; }
+#myModal #email { width: 100%; padding: 1%; border: 1px solid #e6e6e6; }
+#myModal .btn-default { background-color: #7db7a5; color: #fff; }
+#product_details #request_btn { background-color: #7db7a5; border: none; }
+
+#all_wrapper.details_page #nav_wrapper { float: none; text-align: center; }
+#all_wrapper.details_page #product_details { float: none; text-align: center; }
+#all_wrapper.details_page #product_details a { color: #7db7a5; margin: 20px 0; display: inline-block; font-weight: 600; }
+
+#all_wrapper #deatil_header_wrapper h1 { color: #7db7a5; font-size: 35px; font-weight: 300; text-align: center; }
+
+#gallery_landing h2 { font-weight: 300; font-size: 50px; margin: 30px 0; }
+#gallery_landing a { margin: 3%; display: inline-block; }
+#gallery_img_wrapper img { margin: 1%; display: inline-block; vertical-align: middle; }
